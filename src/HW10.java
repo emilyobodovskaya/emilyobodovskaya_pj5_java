@@ -33,7 +33,7 @@ public class HW10 {
         }
         System.out.println( " ");
         int count = 0;
-        for (int a = 0; a < lazyArray.length; a++) {  
+        for (int a = 0; a < lazyArray.length; a++) {
             if(lazyArray[a] == lazyArray2[a]) {
 
                 count++;
