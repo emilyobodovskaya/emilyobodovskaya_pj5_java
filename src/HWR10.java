@@ -40,4 +40,3 @@ public class HWR10 {
         System.out.print("Кількість збігань: " + count);
     }
 }
-
