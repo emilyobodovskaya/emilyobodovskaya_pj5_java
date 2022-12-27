@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class HWa11 {
+public class HW11a {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -32,4 +32,3 @@ public class HWa11 {
             System.out.println();
         }
     } }
-
