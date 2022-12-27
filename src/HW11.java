@@ -7,17 +7,28 @@ import java.util.Scanner;
             System.out.print("Parameter of M:\n");
             int m = scanner.nextInt();
             int[][] a = new int[n][m];
+            int[][] b = new int[m][n];
             System.out.println("\nMatrix:\n");
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < m; j++) {
-                    a[i][j] = m*i + j;
-                    System.out.printf("%4d", a[i][j]);
+            for (int i = 0; i < a.length; i++) {
+                for (int j = 0; j < a[i].length; j++) {
+                    a[i][j] = m * i + j;
+                    System.out.printf("%3d", a[i][j]);
                 }
                 System.out.println();
             }
-
+            for (int i = 0; i < a.length; i++) {
+                for (int j = 0; j < a[i].length; j++) {
+                    b[j][i] = a[i][j];
+                }
+            }
+            System.out.println();
+            System.out.println("Matrix2:");
+            System.out.println();
+            for (int i = 0; i < b.length; i++) {
+                for (int j = 0; j < b[i].length; j++) {
+                    System.out.printf("%3d", b[i][j]);
+                }
+                System.out.println();
+            }
         }
-
-
-
-}
+    }
