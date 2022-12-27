@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HW11a {
+public class HW11f {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
