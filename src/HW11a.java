@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class HW11a {
 
     public static void main(String[] args) {
@@ -23,7 +24,7 @@ public class HW11a {
             }
         }
         System.out.println();
-        System.out.println("Transport matrix:");
+        System.out.println("Matrix:");
         System.out.println();
         for (int[] ints : b) {
             for (int anInt : ints) {
@@ -31,4 +32,5 @@ public class HW11a {
             }
             System.out.println();
         }
-    } }
+    }
+}
